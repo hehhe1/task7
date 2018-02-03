@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding:0;
+    background: #29bde0;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+header{
+    width: 100%;
+    height: 54px;
+    position: fixed;
+    left: 0;
+    top:0;
+}
+.container{
+    position: relative;
+}
+.tu1{
+    background: url(../images/06.png) no-repeat; 
+    width: 20px;
+    height: 21px;
+    background-size: 20px 21px;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+.container h2{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+.glyphicon-remove{
+    position: absolute;
+    right: 15px;
+    top: 25px;
+    color: white;
+}
+.row{
+    position: relative;
+}
+.tlk{
+    background: url(../images/01.png);
+    height: 55px;
+}
+.jt{
+    background: url(../images/08.png)no-repeat;
+    width: 100%;
+    height: 14px;
+    position: absolute;
+    left: 4%;
+    bottom: 24px;
+}
+.col-xs-12 span{
+    color: #464646;
+    line-height: 60px;
+    margin-left: 10%;
+}
+main p{
+    color: white;
+    font-size: 12px;
+    margin-left: 10%;
+    margin-top: 65px;
+}
+.tu2{
+    background: url(../images/07.png);
+    height: 34px;
+    width: 30px;
+    background-size: 30px 34px;
+    float: right;
+    margin-top: 13px;
+    margin-right: 10%;
+}
+main{
+    position: absolute;
+    top: 54px;
+    left: 0;
+    right: 0;
+    bottom: 90px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+footer{
+    position: fixed;
+    background: #29bde0;
+    height: 90px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.sub{
+    background: #fbb435;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+}
+.sub h2{
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+.sub h2 a{
+    color: white;
+    text-decoration: none;
+}
+.sub h2 a:hover{
+    color: white;
+    text-decoration: none;
+}
+.clear{
+    margin-top: 10px;
+}
+.wk{
+    background: white;
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+.wk-gl{
+    margin: 10px 12px;
+}
+.nk{
+    height: 70px;
+    width: 70px;
+    background: #fbb435;
+    margin: 5px 5px;
+    position: relative;
+}
+.nk h2{
+    font-size: 12px;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 0;
+}
+.nk h3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #83b09a;
+    margin:0;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.tb{
+    float: left;
+    margin:0 14px; 
+}
+.tb img{
+    float: left;
+    width: 14px;
+    margin: 0 2px;
+}
+
+.dk{
+    height: 120px;
+    width: 104px;
+    float: left;
+}
+.ycxs{
+    display: none;
+}

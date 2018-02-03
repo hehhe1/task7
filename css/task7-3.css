@@ -1,0 +1,114 @@
+body{
+    background: #29bde0;
+    margin: 0;
+    padding:0;
+}
+header{
+    left: 0;
+    top:0;
+    border-bottom:1px solid #74d4eb;
+}
+.glyphicon-home{
+    position: absolute;
+    left: 5%;
+    top:20px;
+    color: white;
+}
+.glyphicon-home:before {
+    font-size: 22px;
+}
+.tu1{
+    position: absolute;
+    right: 5%;
+    top:20px;
+    background: url(../images/结果页_03.png);
+    width: 22px;
+    height: 24px;
+    background-size: 22px 24px;
+}
+
+.container h2{
+    font-size: 22px;
+    color: white;
+}
+main{
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    bottom:0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 726px;
+}
+.tu2{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tu2 img{
+    width: 50%;
+}
+.yellow{
+    color: #ffc865;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom:20px;
+    text-align: left;
+    padding: 5px 12%;
+}
+.content{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom:1px;
+    text-align :justify ;
+    padding: 2px 12%;
+}
+.content span{
+    margin-right: 10px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex:1;
+    background: rgba(41,189,224,0.5); 
+}
+.but1,.but2{
+    width: 50%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin:10px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.but1{
+    background: #f66f6f;
+}
+.but2{
+    background: #fbb435;
+}
+.one{
+    height: 105px;
+    background: white;
+    color: black;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.one h2{
+    color: black;
+    font-size: 16px;
+    padding: 0 12%;
+    margin-top:10px;
+}
+.one h2 span{
+    font-size: 12px;
+    float: right;
+    color: #666;
+}
+.content-m{
+    color: #999;
+    padding: 0 12%;
+}
