@@ -39,7 +39,7 @@ main{
     bottom:0;
     overflow-y: auto;
     overflow-x: hidden;
-    height: 726px;
+    padding-bottom: 69px;
 }
 .tu2{
     margin-top: 20px;
