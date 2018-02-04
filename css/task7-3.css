@@ -3,6 +3,14 @@ body{
     margin: 0;
     padding:0;
 }
+a{
+    width: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
 header{
     left: 0;
     top:0;
@@ -39,7 +47,6 @@ main{
     bottom:0;
     overflow-y: auto;
     overflow-x: hidden;
-    padding-bottom: 69px;
 }
 .tu2{
     margin-top: 20px;
