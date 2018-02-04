@@ -46,6 +46,7 @@ main{
     right: 0;
     bottom: 90px;
     overflow-x:hidden; 
+    overflow-y: hidden;
 }
 .tlk{
     background: url(../images/01.png) repeat-x;
